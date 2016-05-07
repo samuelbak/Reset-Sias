@@ -5,6 +5,7 @@ import java.io.PrintWriter;
 import java.io.UnsupportedEncodingException;
 
 import com.sias.net.ListeningSocket;
+import com.sias.util.ComPort;
 
 public class Main {
 
@@ -36,6 +37,7 @@ public class Main {
 			}
 			if (args[0].contains("-client")){
 				System.out.println("Not implemented yet");
+				System.out.println(ComPort.getComs());
 			}
 		}
 	}
